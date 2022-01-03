@@ -4,7 +4,7 @@
 	font-family: century Gothic;
 }
 header {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../2.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../4.jpg);
 	height :100vh;
 	background-size: cover ;
 	background-position: center
@@ -34,14 +34,34 @@ ul li.active a{
 	background-color:#fff;
 	color: #000 ;
 }
-.biodata img{
+
+.education img{
+	 float :left;
+	position:absolute;
+	width :300px;  
+	height :auto;
+	top:30%;
+	left:15%;
+	transform: translate(-50%,-50%)
+}
+.secondary img{
     float :left;
 	position:absolute;
-	width :350px;  
+	width :550px;  
 	height :auto;
-	top:50%;
-	left:15%;
-	transform: translate(-50%,-50%);
+	top:55%;
+	left:50%;
+	transform: translate(-50%,-50%)
+}
+.university img{
+    float :left;
+	position:absolute;
+	width :300px;  
+	height :auto;
+	top:70%;
+	left:85%;
+	transform: translate(-50%,-50%)
+}
 }
 .main{
 	max-width:1200px;
@@ -49,21 +69,42 @@ ul li.active a{
 }
 .title{
 	position:absolute;
-	top:50%;
-	left:50%;
+	top:10%;
+	left:10%;
 	transform: translate(-50%,-50%);
 }
+
 .title h1 {
 	color:#fff;
 	font-size:50px;
 }
 .title{
 	position:absolute;
-	top:29%;
-	left:45%;
-	transform: translate(-40%,-40%);
+	top:8%;
+	left:10%;
+	transform: translate(-50%,-50%);
 }
-.title p {
+.title h2{
 	color:#fff;
-	font-size:20px;
+	font-size:18px;
+	position:absolute;
+	top:450%;
+	transform: translate(25%,50%);
 }
+.title h3{
+	color:#fff;
+	font-size:18px;
+	position: absolute;
+	top:680%;
+	text-align: justify;
+	max-width: capitalize;
+	transform: translate(255%,50%);
+}
+.title h4{
+	color:#fff;
+	font-size:18px;
+	position:absolute;
+	top:840%;
+	transform: translate(470%,50%);
+}
+
